@@ -18,7 +18,7 @@ function Name() {
   )
 }
 
-function FavoriteAnimal({animal, onAnimalChange}) {
+function FavoriteAnimal({ animal, onAnimalChange }) {
   return (
     <div>
       <label htmlFor="animal">Favorite Animal: </label>
@@ -27,7 +27,7 @@ function FavoriteAnimal({animal, onAnimalChange}) {
   )
 }
 
-function Display({animal}) {
+function Display({ animal }) {
   return <div>{`Your favorite animal is: ${animal}!`}</div>
 }
 
